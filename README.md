@@ -1,3 +1,5 @@
-Gillian Navarro 
-Java Script homework 
-due: Feb 25, 2022 
+# Javascript homework
+
+due feb 25, 2022
+
+Gillian Navarro
