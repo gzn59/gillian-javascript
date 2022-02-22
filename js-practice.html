@@ -29,11 +29,11 @@
    console.log(zDivide);
   
    console.log("Working with strings");
-   let fName = "gillian";
+   let fName = "Gillian";
    console.log(fName);
-   let mName = "zeta";
+   let mName = "Zeta";
    console.log(mName); 
-   let lName = "navarro"; 
+   let lName = "Navarro"; 
    console.log(lName); 
 
    let name = fName + " " + mName + " " + lName; 
@@ -43,6 +43,33 @@
 
    let greeting = "My name is " + name;
    console.log(greeting); 
+
+   console.log("Using functions:");
+   
+   // Functions to make square numbers 
+   function makeSquare(theNumb) {
+    let squared = theNumb * theNumb;
+    return squared;
+   }
+    let try01 = makeSquare(3); 
+    console.log(try01);
+    let try02 = makeSquare(8);
+    console.log(try02);
+    let try03 =makeSquare(10); 
+    console.log(try03);
+
+    // Functions on my own 
+    function randomName(first, middle, last) {
+      let makeName = first + " " + middle + " " + last;
+      return makeName;
+    }
+    let firstName = randomName("Taylor", "Alison", "Swift");
+    console.log(firstName);
+    let secondName = randomName("Robert", "\"Beto\"", "O'Rourke");
+    console.log(secondName);
+    let thirdName = randomName("Christian", "Clay", "McDonald");
+    console.log(thirdName);
+    
 
 
   </script>
